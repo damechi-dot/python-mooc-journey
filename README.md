@@ -74,3 +74,18 @@ All MOOC projects live inside this repo under the mooc/ folder.
 | Part 7+ | External libraries, HTTP, networking | [Prank Toolkit 🎭](https://github.com/damechi-dot/python-mooc-journey/tree/main/fun/prank-toolkit) | Upcoming |
 
 ---
+
+## Capstone Projects — After the MOOC
+
+This repo is the combination of the four larger projects I'll build once I'm comfortable with Python. Each one pulls together multiple concepts and is scoped like a real-world tool.
+
+🔗 **[capstone-projects repo →](https://github.com/damechi-dot/capstone-projects)**
+
+| Project | What It Is |
+|---------|-----------|
+| [Personal Automation Suite](https://github.com/damechi-dot/capstone-projects/tree/main/capstone/personal-automation-suite) | A collection of scripts that automate repetitive tasks — file organization, scheduled reminders, batch renaming, email summaries, etc. |
+| [Network Discovery Tool](https://github.com/damechi-dot/capstone-projects/tree/main/capstone/network-discovery-tool) | Scans a local network to discover connected devices, open ports, and basic info. Uses `socket` and `scapy`. |
+| [System Configuration Manager](https://github.com/damechi-dot/capstone-projects/tree/main/capstone/system-config-manager) | A CLI tool to manage, backup, and restore system/app config files (`.json`, `.ini`, `.toml`). Supports profiles and diffing. |
+| [Simple Web Service + Web API](https://github.com/damechi-dot/capstone-projects/tree/main/capstone/simple-web-api) | A lightweight REST API built with Flask or FastAPI. Serves real data, handles routes, and can be consumed by other tools. |
+
+---

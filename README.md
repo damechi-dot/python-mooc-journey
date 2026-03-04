@@ -52,7 +52,7 @@ For the full device setup guide including installation steps, SSH key configurat
 
 ## Journey Map — MOOC Projects
 
-All MOOC projects live inside this repo under the mooc/ folder.
+All MOOC projects live inside this repo under the `mooc/` folder.
 
 | Part | Concepts Covered | Project | Status |
 |------|-----------------|---------|--------|
@@ -77,7 +77,7 @@ All MOOC projects live inside this repo under the mooc/ folder.
 
 ## Capstone Projects — After the MOOC
 
-This repo is the combination of the four larger projects I'll build once I'm comfortable with Python. Each one pulls together multiple concepts and is scoped like a real-world tool.
+These are the four larger projects I'll build once I'm comfortable with Python. They all live inside one dedicated `capstone-projects` repo and each pulls together multiple concepts and is scoped like a real-world tool.
 
 🔗 **[capstone-projects repo →](https://github.com/damechi-dot/capstone-projects)**
 
@@ -141,7 +141,7 @@ Not everything has to be serious. This repo is a collection of Python-powered pr
 
 Every project repo follows this structure:
 ```
-project-name/
+part-XX-project-name/
 ├── main.py
 ├── README.md        ← what it does, how to run it, what I learned
 ├── requirements.txt ← if any external libraries are needed

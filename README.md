@@ -71,7 +71,7 @@ All MOOC projects live inside this repo under the mooc/ folder.
 | Part 12+ | Automation & downloading | [Bulk Downloader](https://github.com/damechi-dot/python-mooc-journey/tree/main/mooc/part-12-bulk-downloader) | Upcoming |
 | Part 13 | pygame basics | [Snake Game](https://github.com/damechi-dot/python-mooc-journey/tree/main/mooc/part-13-snake-game) | Upcoming |
 | Part 14 | Larger pygame project | [Breakout Game](https://github.com/damechi-dot/python-mooc-journey/tree/main/mooc/part-14-breakout-game) | Upcoming |
-| Part 7+ | External libraries, HTTP, networking | [Prank Toolkit 🎭](https://github.com/damechi-dot/python-mooc-journey/tree/main/fun/prank-toolkit) | Upcoming |
+| Part 7+ | External libraries, HTTP, networking | [Prank Toolkit](https://github.com/damechi-dot/prank-toolkit) | Upcoming |
 
 ---
 
@@ -89,3 +89,73 @@ This repo is the combination of the four larger projects I'll build once I'm com
 | [Simple Web Service + Web API](https://github.com/damechi-dot/capstone-projects/tree/main/capstone/simple-web-api) | A lightweight REST API built with Flask or FastAPI. Serves real data, handles routes, and can be consumed by other tools. |
 
 ---
+
+## Just For Fun — Prank Toolkit
+
+Not everything has to be serious. This repo is a collection of Python-powered pranks built with real libraries and real networking concepts — just aimed at chaos.
+
+🔗 **[prank-toolkit repo →](https://github.com/damechi-dot/prank-toolkit)**
+
+| Tool | What It Does |
+|------|--------------|
+| `rickroll_qr.py` | Generates a QR code that rickrolls whoever scans it |
+| `audio_qr.py` | QR code that plays a custom sound in the browser when scanned |
+| `jumpscare_qr.py` | QR code that opens a jumpscare or funny page |
+| `network_trigger.py` | Connects to VirtualDJ's HTTP API over WiFi and fires play commands |
+| `remote_control.py` | A secret Flask page with a big red button that drops a prank song into a live DJ set |
+| `crowd_qr.py` | QR code that blasts audio through everyone's phones simultaneously |
+
+> ⚠️ All pranks performed with full permission. Probably.
+
+---
+
+## 🧠 What I'm Learning Along the Way
+
+`UPDATING...`
+
+<!-- Update this section as you go -->
+<!--
+- **Part 1:** _(e.g. "Learned how Python handles types differently from what I expected")_
+- **Part 2:** _(your reflection here)_ -->
+
+---
+
+## 🛠️ Tools & Libraries Used
+
+`UPCOMING...`
+
+<!-- Fill this in as you use them -->
+<!--
+- `requests` — API calls & web scraping
+- `yt-dlp` — video/bulk downloading
+- `pygame` — game development
+- `flask` / `fastapi` — web services
+- `scapy` — network tools
+- `qrcode` — QR code generation
+- `csv` / `json` — file handling
+- _(more to come...)_ -->
+
+---
+
+## 📁 How Each Project Repo Is Structured
+
+Every project repo follows this structure:
+```
+project-name/
+├── main.py
+├── README.md        ← what it does, how to run it, what I learned
+├── requirements.txt ← if any external libraries are needed
+└── screenshots/     ← for visual projects
+```
+
+---
+
+## 🔗 Connect
+
+- GitHub: [@damechi-dot](https://github.com/damechi-dot)
+- X/Twitter: [@heydamechi](https://x.com/heydamechi)
+<!-- _(add Twitter/LinkedIn/etc if you want)_ -->
+
+---
+
+> "The best time to start was years ago. The second best time is now." 🚀

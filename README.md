@@ -50,7 +50,7 @@ For the full device setup guide including installation steps, SSH key configurat
 
 ---
 
-## 🗺️ Journey Map — MOOC Projects
+## Journey Map — MOOC Projects
 
 All MOOC projects live inside this repo under the mooc/ folder.
 
@@ -72,6 +72,5 @@ All MOOC projects live inside this repo under the mooc/ folder.
 | Part 13 | pygame basics | [Snake Game](https://github.com/damechi-dot/python-mooc-journey/tree/main/mooc/part-13-snake-game) | Upcoming |
 | Part 14 | Larger pygame project | [Breakout Game](https://github.com/damechi-dot/python-mooc-journey/tree/main/mooc/part-14-breakout-game) | Upcoming |
 | Part 7+ | External libraries, HTTP, networking | [Prank Toolkit 🎭](https://github.com/damechi-dot/python-mooc-journey/tree/main/fun/prank-toolkit) | Upcoming |
-
 
 ---

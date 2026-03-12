@@ -1,6 +1,6 @@
 # My Python Learning Journey — University of Helsinki MOOC
 
-> Following the [Python Programming MOOC](https://programming.mooc.fi/) by the University of Helsinki, building a project for every part to practice what I learn — then finishing with four capstone projects that put it all together.
+> Following the [Python Programming MOOC](https://programming-26.mooc.fi/) by the University of Helsinki, building a project for every part to practice what I learn — then finishing with four capstone projects that put it all together.
 
 ![Progress](https://img.shields.io/badge/Progress-0%2F14%20Parts-red)
 ![Language](https://img.shields.io/badge/Language-Python-blue)

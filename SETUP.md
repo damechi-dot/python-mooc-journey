@@ -7,7 +7,7 @@
 
 ## 📁 Folder Structure
 
-This is how everything will be organized — identical on both laptop and phone.
+This is how my folder structure looks, yours could be different but you get the hint. It's identical on both laptop and phone.
 
 ```
 python-mooc-journey/              ← main GitHub repo
@@ -38,47 +38,7 @@ python-mooc-journey/              ← main GitHub repo
 │   ├── part-12-bulk-downloader/...
 │   ├── part-13-snake-game/...
 │   └── part-14-breakout-game/...
-│
-├── capstone/                     ← post-MOOC bigger projects
-│   ├── personal-automation-suite/
-│   │   ├── file_organizer.py
-│   │   ├── bulk_renamer.py
-│   │   ├── reminder_system.py
-│   │   ├── email_digest.py
-│   │   ├── clipboard_manager.py
-│   │   ├── requirements.txt
-│   │   └── README.md
-│   ├── network-discovery-tool/
-│   │   ├── main.py
-│   │   ├── scanner.py
-│   │   ├── requirements.txt
-│   │   └── README.md
-│   ├── system-config-manager/
-│   │   ├── main.py
-│   │   ├── profiles/
-│   │   ├── backups/
-│   │   ├── requirements.txt
-│   │   └── README.md
-│   └── simple-web-api/
-│       ├── main.py
-│       ├── routes/
-│       ├── requirements.txt
-│       └── README.md
-│
-└── fun/                          ← prank toolkit and other fun stuff
-    └── prank-toolkit/
-        ├── qr-pranks/
-        │   ├── rickroll_qr.py
-        │   ├── audio_qr.py
-        │   └── jumpscare_qr.py
-        ├── dj-hijack/
-        │   ├── network_trigger.py
-        │   ├── remote_control.py
-        │   └── crowd_qr.py
-        ├── assets/
-        │   └── sounds/
-        ├── requirements.txt
-        └── README.md
+├── 
 ```
 
 ---
@@ -158,18 +118,6 @@ mkdir -p mooc/part-12-web-api
 mkdir -p mooc/part-12-bulk-downloader
 mkdir -p mooc/part-13-snake-game/screenshots
 mkdir -p mooc/part-14-breakout-game/screenshots
-
-# Capstone folders
-mkdir -p capstone/personal-automation-suite
-mkdir -p capstone/network-discovery-tool
-mkdir -p capstone/system-config-manager/profiles
-mkdir -p capstone/system-config-manager/backups
-mkdir -p capstone/simple-web-api/routes
-
-# Fun folders
-mkdir -p fun/prank-toolkit/qr-pranks
-mkdir -p fun/prank-toolkit/dj-hijack
-mkdir -p fun/prank-toolkit/assets/sounds
 ```
 
 ### Step 7 — Push the Structure to GitHub

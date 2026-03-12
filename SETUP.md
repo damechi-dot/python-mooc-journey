@@ -10,35 +10,22 @@
 This is how my folder structure looks, yours could be different but you get the hint. It's identical on both laptop and phone.
 
 ```
-python-mooc-journey/              ← main GitHub repo
+python-mooc-journey/              ← your ONE main GitHub repo
 │
-├── README.md                     ← the main repo readme file
+├── README.md                     ← the main repo homepage (already built)
 ├── SETUP.md                      ← this file
 │
-├── mooc/                         ← all MOOC part projects live here
-│   ├── part-01-cli-personal-card/
-│   │   ├── main.py
-│   │   ├── README.md
-│   │   └── screenshots/
-│   ├── part-02-number-guessing-game/
-│   │   ├── main.py
+├── mooc/                         ← all MOOC parts live here
+│   ├── part-01/
+│   │   ├── exercises/            ← my solutions to part 1 exercises
+│   │   ├── project/              ← CLI Personal Card
 │   │   └── README.md
-│   ├── part-03-unit-converter/...
-│   ├── part-04-expense-tracker/...
-│   ├── part-05-contact-book/...
-│   ├── part-06-habit-tracker/...
-│   ├── part-07-weather-cli/...
-│   ├── part-07-web-scraper/...
-│   ├── part-08-library-manager/...
-│   ├── part-09-rpg-system/...
-│   ├── part-10-task-manager/...
-│   ├── part-11-data-analyzer/...
-│   ├── part-12-news-fetcher/...
-│   ├── part-12-web-api/...
-│   ├── part-12-bulk-downloader/...
-│   ├── part-13-snake-game/...
-│   └── part-14-breakout-game/...
-├── 
+│   ├── part-02/
+│   │   ├── exercises/            ← my solutions to part 2 exercises
+│   │   ├── project/              ← Number Guessing Game
+│   │   └── README.md
+│   └── part-03/ to part-14/     ← same structure for every part
+
 ```
 
 ---
@@ -100,24 +87,12 @@ cd python-mooc-journey
 ### Step 6 — Create the Folder Structure
 Run this once to create all the folders in one go:
 ```bash
-# MOOC folders
-mkdir -p mooc/part-01-cli-personal-card/screenshots
-mkdir -p mooc/part-02-number-guessing-game
-mkdir -p mooc/part-03-unit-converter
-mkdir -p mooc/part-04-expense-tracker
-mkdir -p mooc/part-05-contact-book
-mkdir -p mooc/part-06-habit-tracker
-mkdir -p mooc/part-07-weather-cli
-mkdir -p mooc/part-07-web-scraper
-mkdir -p mooc/part-08-library-manager
-mkdir -p mooc/part-09-rpg-system
-mkdir -p mooc/part-10-task-manager
-mkdir -p mooc/part-11-data-analyzer
-mkdir -p mooc/part-12-news-fetcher
-mkdir -p mooc/part-12-web-api
-mkdir -p mooc/part-12-bulk-downloader
-mkdir -p mooc/part-13-snake-game/screenshots
-mkdir -p mooc/part-14-breakout-game/screenshots
+# MOOC folders — each part gets exercises/ and project/
+for i in 01 02 03 04 05 06 07 08 09 10 11 12 13 14; do
+  mkdir -p mooc/part-$i/exercises
+  mkdir -p mooc/part-$i/project
+done
+
 ```
 
 ### Step 7 — Push the Structure to GitHub

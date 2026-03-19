@@ -64,59 +64,59 @@ python-mooc-journey/           ← main GitHub repo
     ├── part-01/
     │   ├── exercises/         ← my solutions to part 1 MOOC exercises
     │   ├── project/           ← CLI Personal Card
-    │   └── README.md          ← what I built, what I learned
+    │   └── NOTES.MD          ← what I built, what I learned
     ├── part-02/
     │   ├── exercises/         ← my solutions to part 2 MOOC exercises
     │   ├── project/           ← Number Guessing Game
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-03/
     │   ├── exercises/         ← my solutions to part 3 MOOC exercises
     │   ├── project/           ← Unit Converter Tool
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-04/
     │   ├── exercises/         ← my solutions to part 4 MOOC exercises
     │   ├── project/           ← Expense Tracker
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-05/
     │   ├── exercises/         ← my solutions to part 5 MOOC exercises
     │   ├── project/           ← Contact Book CLI
-    │   └── README.md
-    ├── part-06/c
+    │   └── NOTES.MD
+    ├── part-06/
     │   ├── exercises/         ← my solutions to part 6 MOOC exercises
     │   ├── project/           ← Habit Tracker
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-07/
     │   ├── exercises/         ← my solutions to part 7 MOOC exercises
     │   ├── project/           ← Weather CLI + Web Scraper
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-08/
     │   ├── exercises/         ← my solutions to part 8 MOOC exercises
     │   ├── project/           ← Library Book Manager
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-09/
     │   ├── exercises/         ← my solutions to part 9 MOOC exercises
     │   ├── project/           ← RPG Character System
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-10/
     │   ├── exercises/         ← my solutions to part 10 MOOC exercises
     │   ├── project/           ← Task Manager App
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-11/
     │   ├── exercises/         ← my solutions to part 11 MOOC exercises
     │   ├── project/           ← Data Analyzer
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-12/
     │   ├── exercises/         ← my solutions to part 12 MOOC exercises
     │   ├── project/           ← News Fetcher + Web API + Bulk Downloader
-    │   └── README.md
+    │   └── NOTES.MD
     ├── part-13/
     │   ├── exercises/         ← my solutions to part 13 MOOC exercises
     │   ├── project/           ← Snake Game
-    │   └── README.md
+    │   └── NOTES.MD
     └── part-14/
         ├── exercises/         ← my solutions to part 14 MOOC exercises
         ├── project/           ← Breakout Game
-        └── README.md
+        └── NOTES.MD
 ```
 
 🔗 Capstone projects live in a separate repo — capstone-projects →

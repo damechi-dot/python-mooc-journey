@@ -71,3 +71,71 @@ print(365 * 24) # outputs 8760
 > Good comments explain **why** or **how** a command, program, or code works or does something.
 
 ---
+
+## 2. Information From The User
+
+`Input` refers to any information a user gives to the program. The Python command `input()` reads in a line of input typed in by the user. It may also be used to prompt the user for a specific input, and used to display a message to the user.
+
+> `input()` pauses the program, shows a prompt, and returns whatever the user types in as a string.
+
+```python
+name = input("What is your name? ")
+print("Hi there, " + name)  # outputs "Hi there, David"
+```
+
+### Variables
+
+A variable is a named storage location in memory. It is also a location for storing a value, such as a string or a number. This value can be used later, and it can also be changed.
+
+#### Naming Rules:
+
+- Must start with a letter or underscore **_**
+- Can contain letters, digits, and underscores
+- Case-sensitive: name, Name, and NAME are three different variables
+- Conventional practice: use lowercase_with_underscores
+
+> A variable stores only its most recent value. Previous values are overwritten and lost.
+
+### String Concatenation
+
+Concatenation is how strings are combined using the `+` opeerator. Strings and variables can be combined freely.
+
+```python
+name = input("What is your name? ")
+print("Hi " + name + "! Nice to meet you.")
+
+""" Output
+Whats is your name? David
+Hi David! Nice to meet you. """
+```
+
+### Multiple Inputs
+
+A program can ask for more than one input. Notice how below each `input` command stores the received value in a different variable.
+
+```python
+name = input("What is your name? ")
+email = input("What is your email address? ")
+nickname = input("What is your nickname? ")
+
+print("Let's make sure we got this right")
+print("Your name: " + name)
+print("Your email address: " + email)
+print("Your nickname: " + nickname)
+```
+
+### Overwriting a Variable
+
+If the same variable is used to store more than one input, each new value will replace the previous one. Same way as if the same variable is used to store two inputs in succession, there is no way to access the first input value after it has been replaced by the second.
+
+```python
+address = input("Current address: ")
+print("You live at " + address)
+
+address = input("New address: ")
+print("Your new address is " + address)
+```
+
+---
+
+## 3. More About Variables
